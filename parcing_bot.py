@@ -5,9 +5,9 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-TOKEN = '5317656431:AAFvdC26xtBHn-BCgJCG8q6-iWWjFl35JL8'
+TOKEN = 'some_token'
 bot = telegram.Bot(token=TOKEN)
-chat_id='-1001654396048'
+chat_id='some_id'
 url='https://select.by/kursy-valyut'
 
 response=requests.get(url)
